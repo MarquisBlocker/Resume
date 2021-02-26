@@ -1,0 +1,128 @@
+h1{
+    color: red; 
+    text-align: center;
+}
+
+p{
+    color: red;
+}
+
+h2{
+    color: green
+}
+.mini{
+    font-size: 500px;
+}
+#blah{
+    color: burlywood;
+}
+#haha{
+    color: deeppink;
+}
+#who{
+    font-weight: bolder;
+}
+button{
+    padding: 18px;
+    color: blue
+    background color yellow;
+}
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 48px;
+    color: green;
+    padding: 16px;
+    font-size: 72px;
+    color: purple
+}
+div {
+    border: 8px solid red;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    margin-bottom: 20px;
+}
+p {
+    color: green;
+}
+  /* target all <p> tags within a <div> and make the text red */
+  div p {
+    color: red;
+  }
+
+  /* target all <div> and <p> tags on the page and make their text blue */
+  div, p {
+    color: blue;
+  }
+  span{
+      border: 1px solid black;
+  }
+ table{
+      background-color: chocolate;
+      margin: 10px;
+  }
+  .box{
+      height: 50px;
+      width: 75px;
+      margin-bottom: 35px;
+      background-color: cyan;
+      color: darkgray;
+      padding: 100px;
+      border: darkslateblue;
+  }
+  #boo{
+      font-size: larger;
+      font-style: oblique;
+      border-color: black;
+  }
+  #yoo{
+      float: left;
+      color: dodgerblue;
+      border-color: black;
+  }
+div.static {
+        position: static;
+        border: 30px solid #73AD21;
+      }  
+div.relative {
+        position: relative;
+        left: 3px;
+        border: 3px solid crimson;
+      }
+      
+img.block-image {
+        display: block;
+      }
+      
+li.inline-list {
+        display: inline;
+      }
+      
+div.hidden-div{
+        display: none;
+      }
+      
+img.invisible-image{
+          visibility: hidden;
+      }

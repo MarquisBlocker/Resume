@@ -1,0 +1,76 @@
+.footer {
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.birdbox{
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.blackbird{
+    font-size: 20px;
+    font-style: oblique;
+    word-wrap:break-word;
+    
+}
+
+.header{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+                
+    
+}
+
+.bg-1 { 
+background-color: #1abc9c; 
+color:   #fff;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+  .topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: black;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #1abc9c;
+    color: white;
+    font-style: italic;
+  }
+
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+
+  .topnav input[type=text] {
+    float:inherit;
+    padding: 8px;
+    border: none;
+    margin-top: 16px;
+    margin-right: 16px;
+    font-size: 17px;  
+  }
